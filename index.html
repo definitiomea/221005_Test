@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1005 테스트 - 간단한 투두리스트</title>
+    <link rel="stylesheet" href="./css/1005test.css">
+    <style>
+        ul {
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>투두리스트</h1>
+    <form action="" method="get" id="todoform">
+        <input type="text" placeholder="할 일을 입력해주세요" autocomplete="off" required id="todowork">
+        <input type="submit" value="+" id="addbutton">
+        <ul id="todolist">
+
+        </ul>
+        <p id="todaylist">오늘 완료한 할 일: <span id="todaytodo"></span>개</p>
+    </form>
+    <script src="./js/1005test.js"></script>
+</body>
+</html>
